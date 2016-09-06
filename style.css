@@ -1,0 +1,103 @@
+.blockContainer{
+	width:400px;
+	height:200px;
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#box{
+position: absolute;
+width: 150px;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+display: inline-block;
+}
+
+p{
+font-family: 'Raleway', sans-serif;
+}
+
+
+#itext{
+position:absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 700px;
+height: 350px;
+font-size:20px;
+text-align: center;
+display: inline-block;
+}
+
+button{
+position: absolute;
+transform: translate(-50%,0);
+bottom: 30%;
+left: 50%;
+font-family: 'Raleway', sans-serif;
+}
+
+#mail1{
+width: 80%;
+display: inline-block;
+height: auto;
+position: relative;
+}
+
+#mail4{
+position: relative;
+width: 80%;
+display: inline-block;
+visibility: hidden;
+margin-bottom: -5px;
+margin-left: 5px;
+}
+
+#read{
+position:relative;
+float:right;
+width: auto;
+height: 40px;
+visibility: hidden;
+font-size:20px;
+}
+
+#send{
+position:absolute;
+display:inline-block;
+float:right;
+bottom:0px;
+right:0px;
+width: auto;
+height: 40px;
+font-size:20px;
+
+visibility: hidden;
+}
+
+#typing{
+  position: absolute;
+  width: 900px;
+  height: auto;
+  left:50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+}
+
+input[type="text"] {
+  position:relative;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  border: none;
+  border-bottom: solid 1px #c9c9c9;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
